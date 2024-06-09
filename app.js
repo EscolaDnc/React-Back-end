@@ -6,8 +6,8 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Importa o roteador CRUD
-const crudRouter = require('../APIs/crud');
-const getRouter = require('../APIs/get');
+const crudRouter = require('./APIs/crud');
+const getRouter = require('./APIs/get');
 
 
 // Usa o roteador CRUD para o endpoint /items
